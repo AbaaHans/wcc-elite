@@ -1,0 +1,39 @@
+
+.text-danger{
+    color: #e8a930;
+    font-size: 20px;
+}
+
+.alert-danger{
+    margin:10px;
+    padding: 10px;
+    }
+
+
+
+
+.mail-modal {
+    pointer-events: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: rgba(22, 21, 21, 0.61);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    opacity:1;
+}
+
+.mail-modal .modal {
+    width: 550px;
+    background-color: #d4e3b3;
+    color: green;
+    padding: 30px 45px;
+}
+
+.mail-modal .modal p {
+    font-size: 18px;
+}
